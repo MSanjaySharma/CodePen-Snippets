@@ -1,0 +1,23 @@
+body {
+  background: rgb(40, 88, 77);
+  background: linear-gradient(
+    90deg,
+    rgba(40, 88, 77, 1) 0%,
+    rgba(19, 121, 9, 1) 45%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.preview {
+  background-color: #fff;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.preview img {
+  max-width: 100%;
+}
+
+textarea {
+  min-height: 400px;
+}
